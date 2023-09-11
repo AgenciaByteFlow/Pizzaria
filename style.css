@@ -353,6 +353,17 @@ footer{
         font-size: 45%;
     }
 
+    .sobre-nos img{
+        width: 450px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .contentsobre p{
+        text-align: center;
+        width: 450px;
+    }
+
     .content{
         display: flex;
         flex-direction: row;
@@ -517,14 +528,14 @@ footer{
 
 @media (max-width: 395px){
     .sobre-nos img{
-        width: 150px;
+        width: 200px;
         height: auto;
         margin-left: 10px;
     }
 
     .contentsobre p{
         text-align: center;
-        width: 150px;
+        width: 200px;
     }
 
     .itens-cardapio{
