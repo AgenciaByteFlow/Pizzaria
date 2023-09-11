@@ -478,6 +478,18 @@ footer{
 }
 
 @media (max-width: 500px){
+
+    .sobre-nos img{
+        width: 250px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .contentsobre p{
+        text-align: center;
+        width: 250px;
+    }
+
     .btn{
         flex-direction: column;
         justify-content: center;
@@ -505,7 +517,7 @@ footer{
 
 @media (max-width: 395px){
     .sobre-nos img{
-        width: 250px;
+        width: 150px;
         height: auto;
         margin-left: 10px;
     }
