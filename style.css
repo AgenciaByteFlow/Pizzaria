@@ -355,6 +355,11 @@ footer{
         font-size: 45%;
     }
 
+    .logo img{
+        width: 100%;
+        height: 55px;
+    }
+
     .sobre-nos img{
         width: 450px;
         height: auto;
@@ -441,6 +446,11 @@ footer{
         transform: rotate(-45deg) translate(20px, -6px);
     }
 
+    .conteudo-principal h1{
+        text-align: center;
+        font-size: 5rem;
+    }
+
     .itens-cardapio{
         grid-template-columns: repeat(2, minmax(50px, 350px));
     }
@@ -458,9 +468,16 @@ footer{
     .contatos-secao div{
         margin: 1rem;
     }
+    
 }
 
 @media (max-width: 600px){
+
+    .logo img{
+        width: 100%;
+        height: 45px;
+    }
+    
     .content{
         height: 55px;
     }
@@ -497,6 +514,10 @@ footer{
 
 @media (max-width: 500px){
 
+    .logo img{
+        width: 100%;
+        height: 45px;
+    }
 
     .content{
         height: 45px;
@@ -539,6 +560,11 @@ footer{
 }
 
 @media (max-width: 395px){
+
+    .logo img{
+        width: 100%;
+        height: 45px;
+    }
 
     .content{
         height: 40px;
