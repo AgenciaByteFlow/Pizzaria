@@ -171,6 +171,7 @@ html{
 }
 
 .contentsobre h2{
+    padding: 1rem 0rem;
     font-size: 6rem;
     margin-bottom: 1rem;
 }
@@ -194,6 +195,7 @@ html{
 }
 
 .cardapio h2{
+    padding-top: 1.5rem;
     font-size: 5rem;
     color: #e6e6e6;
     text-transform: uppercase;
@@ -369,6 +371,7 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         padding: 0px 40px;
+        height: 60px;
     }
 
     .content .list-menu{
@@ -458,6 +461,10 @@ footer{
 }
 
 @media (max-width: 600px){
+    .content{
+        height: 55px;
+    }
+
     .conteudo-principal h1{
         width: 500px;
         text-align: center;
@@ -489,6 +496,11 @@ footer{
 }
 
 @media (max-width: 500px){
+
+
+    .content{
+        height: 45px;
+    }
 
     .sobre-nos img{
         width: 250px;
@@ -527,6 +539,11 @@ footer{
 }
 
 @media (max-width: 395px){
+
+    .content{
+        height: 40px;
+    }
+
     .sobre-nos img{
         width: 200px;
         height: auto;
