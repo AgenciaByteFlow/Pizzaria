@@ -249,9 +249,32 @@ html{
 }
 
 .itens-cardapio div{
-    background-color: #5e5252;
-    box-shadow: 0px 0px 4px 1px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
 }
+
+.itens-cardapio .pizza{
+    background-color: rgb(255, 83, 83);
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+.itens-cardapio .pizza .sensacao{
+    padding: 25px;
+}
+
+.itens-cardapio .pizza .frango{
+    width: 320px;
+}
+
+.itens-cardapio .pizza .chocolate{
+    padding-top: 35px;
+    }
+
+.itens-cardapio .pizza .prestigio{
+    padding-top: 35px;
+    }
 
 
 .itens-cardapio img{
@@ -452,7 +475,9 @@ footer{
     }
 
     .itens-cardapio{
-        grid-template-columns: repeat(2, minmax(50px, 350px));
+            width: 50%;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit,minmax(50px, 350px));
     }
 
     .itens-cardapio .info h4{
@@ -507,6 +532,12 @@ footer{
         width: 400px;
     }
 
+    .itens-cardapio{
+        width: 60%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit,minmax(50px, 350px));
+}
+
     .contatos-secao{
         width: 300px;
     }
@@ -557,6 +588,12 @@ footer{
         font-size: 2rem;
         text-align: center;
     }
+
+    .itens-cardapio{
+        width: 50%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit,minmax(50px, 350px));
+}
 }
 
 @media (max-width: 395px){
