@@ -238,7 +238,8 @@ html{
     justify-content: center;
     align-items: center;
     grid-template-columns: 150px 150px;
-    margin-left: 6rem;
+    margin-left: 7rem;
+    padding-bottom:10px;
 }
 
 .itens-cardapio .info h4 span{
@@ -264,9 +265,6 @@ html{
     padding: 25px;
 }
 
-.itens-cardapio .pizza .frango{
-    width: 320px;
-}
 
 .itens-cardapio .pizza .chocolate{
     padding-top: 35px;
@@ -371,6 +369,11 @@ footer{
     html{
         font-size: 50%;
     }
+
+    .itens-cardapio .info h4{
+        margin-left: 11rem;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -521,6 +524,11 @@ footer{
         grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
     }
 
+    .itens-cardapio .info h4{
+        margin-left: 13.5rem;
+    }
+
+
     .sobre-nos img{
         width: 400px;
         height: 250px;
@@ -589,11 +597,10 @@ footer{
         text-align: center;
     }
 
-    .itens-cardapio{
-        width: 50%;
-        justify-content: center;
-        grid-template-columns: repeat(auto-fit,minmax(50px, 350px));
-}
+   .frango{
+    width: 200px;
+   }
+
 }
 
 @media (max-width: 395px){
@@ -619,14 +626,13 @@ footer{
     }
 
     .itens-cardapio{
-        width: 50%;
+        width: 60%;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit,minmax(50px, 350px));
     }
 
     .itens-cardapio img{
-        width: 80%;
-        height: auto;
+        width: 190px;
+        height: 120px;
     }
 
     .itens-cardapio div{
@@ -646,7 +652,25 @@ footer{
     }
 
     .itens-cardapio .info .pedir{
-        width: 100%;
+        width: 80%;
         font-size: 1.5rem;
+        height: 100px;
+    }
+
+    .farngo{
+        height: 40%;
+    }
+
+}
+
+@media (max-width: 350px){
+    .itens-cardapio .pizza{
+        margin: 10px;
+        width: 150px;
+    }
+
+    .itens-cardapio .pizza img{
+        width: 90%;
     }
 }
+
