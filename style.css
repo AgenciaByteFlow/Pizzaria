@@ -605,6 +605,20 @@ footer{
 
 @media (max-width: 395px){
 
+
+    .conteudo-principal h1{
+        font-size: 2.1rem;
+    }
+
+    .conteudo-principal h2{
+        font-size: 1.6rem;
+    }
+
+    .btn{
+        width: 140px;
+        height: 160px;
+    }
+
     .logo img{
         width: 100%;
         height: 45px;
@@ -657,8 +671,9 @@ footer{
         height: 100px;
     }
 
-    .farngo{
+    .frango{
         height: 40%;
+        width: 100%;
     }
 
 }
@@ -671,6 +686,10 @@ footer{
 
     .itens-cardapio .pizza img{
         width: 90%;
+    }
+    .frango{
+        height: 20%;
+        width: 100%;
     }
 }
 
