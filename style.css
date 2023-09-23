@@ -26,7 +26,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f1e1f;
+    background-color: #ec1e1e;
     position: fixed;
     padding-left: 30rem;
 }
@@ -255,7 +255,7 @@ html{
 }
 
 .itens-cardapio .pizza{
-    background-color: rgb(255, 83, 83);
+    background-color: rgb(244, 28, 28);
     margin: 15px;
     border-radius: 20px;
 
