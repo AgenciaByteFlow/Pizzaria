@@ -261,6 +261,8 @@ html{
 
 }
 
+
+
 .itens-cardapio .pizza .sensacao{
     padding: 25px;
 }
@@ -679,17 +681,21 @@ footer{
 }
 
 @media (max-width: 350px){
+    
     .itens-cardapio .pizza{
+        width: 180px;
         margin: 10px;
-        width: 150px;
+        padding: 5px;
+        border-radius: 10px;
     }
 
-    .itens-cardapio .pizza img{
-        width: 90%;
+    .itens-cardapio div{
+        border-radius: 15px;
     }
-    .frango{
-        height: 20%;
-        width: 100%;
-    }
+    
+}
+
+@media (max-width: 310px){
+   
 }
 
