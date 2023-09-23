@@ -599,8 +599,8 @@ footer{
         text-align: center;
     }
 
-   .frango{
-    width: 200px;
+   .itens-cardapio .pizza .pepperoni{
+    width: 230px;
    }
 
 }
@@ -673,10 +673,9 @@ footer{
         height: 100px;
     }
 
-    .frango{
-        height: 40%;
-        width: 100%;
-    }
+    .itens-cardapio .pizza .pepperoni{
+        width: 200px;
+       }
 
 }
 
