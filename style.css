@@ -603,6 +603,16 @@ footer{
     padding: 20px;
    }
 
+   .itens-cardapio .info{
+    height: 140px;
+   }
+
+   .itens-cardapio .info .pedir{
+    width: 130px;
+    padding: 5px;
+    margin-bottom: 20px;
+   }
+
 }
 
 @media (max-width: 395px){
