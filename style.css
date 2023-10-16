@@ -241,7 +241,7 @@ header.rolagem{
     flex-direction: column;
     align-items: center;
     background-color:white;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.427);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.75);
 }
 
 .cardapio h2{
