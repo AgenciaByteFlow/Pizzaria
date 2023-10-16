@@ -1,7 +1,7 @@
 
 window.addEventListener('scroll', function(){
     let header = document.querySelector('#header')
-    header.classList.toggle('rolagem', window.scrollY > 50)
+    header.classList.toggle('rolagem', window.scrollY > 0)
 })
 
 let show = true;

@@ -9,6 +9,11 @@
 
 html{
     overflow-x: hidden;
+    width: 100vw;
+}
+
+body{
+    width: 100vw;
 }
 
 .container{
@@ -28,8 +33,6 @@ header{
     width: 100vw;
     padding: 0 4%;
     position: fixed;
-    top: 0;
-    left: 0;
     transition: 0.5s;
 }
 
@@ -364,7 +367,7 @@ header.rolagem{
 }
 
 .btn-cardapio{
-    width: 590px;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 130px;
