@@ -25,7 +25,7 @@ html{
 /*header*/
 
 header{
-    width: 100%;
+    width: 100vw;
     padding: 0 4%;
     position: fixed;
     top: 0;
@@ -74,6 +74,7 @@ header ul li a:hover{
 }
 
 header.rolagem{
+    width: 100vw;
     background-color: #3F903F;
     height: 60px;
 }
