@@ -1,10 +1,9 @@
 window.sr = ScrollReveal({ reset:true });
 
 sr.reveal('.conteudo-principal', {duration:2000})
-sr.reveal('.main', {duration:3000})
+sr.reveal('.main', {duration:2000})
 sr.reveal('.text-cardapio', {duration:1000})
 sr.reveal('.itens-cardapio', {duration:1000})
-sr.reveal('.contatos', {duration:3000})
 
 
 window.addEventListener('scroll', function(){
