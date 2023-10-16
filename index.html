@@ -1,192 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Pizza Mágica </title>
+    <title>PizzaPlanet</title>
 </head>
 <body>
-    <header class="content">
-        <div class="logo">
-            <img src="imagens/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="">
-            <h3>PizzaMágica</h3>
-        </div>
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+                <div class="logo"><a href="#"><img src="imagens/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt=""></a>
+                    <h3>PizzaPlanet</h3>
+                </div>
+               
+                <nav>
+                    <ul class="itens-nav">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#sobrenos">SOBRE</a></li>
+                        <li><a href="#cardapio">CARDÁPIO</a></li>
+                        <li><a href="#contatos">CONTATOS</a></li>
+                    </ul>
 
-        <nav>
-            <ul class="list-menu">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#sobrenos">SOBRE NÒS</a></li>
-                <li><a href="#cardapio">CARDÁPIO</a></li>
-                <li><a href="#contatos">CONTATOS</a></li>
-                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                <li><a href="#"><i class="bi bi-cart2"></i></a></li>
-            </ul>
-        </nav>
+                </nav>
 
-        <div class="menu-toggle">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-        </div>
+                <div class="icon-nav">
+                    <ul class="icones-nav">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-cart2"></i></a></li>
+                    </ul>
+                </div>
 
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+            </div> <!--flex-->
+        </div> <!--container-->
     </header>
 
-    <section class="first-section" id="home">
-            <div class="conteudo-principal">
-                <h1>Deixe seu dia mais saboroso!!!</h1>
-                <h2>As pizzas mais recheadas da região</h2>
-                <div class="btn">
-                    <button class="reservar">
-                        Reserve a sua!
-                    </button>
-                    <button class="montar">
-                        Montar a sua pizza!
-                    </button>
-                </div>
+    <section class="banner">
+        <div class="conteudo-principal">
+            <h1>MORDA O SABOR, AME A EXPERIÊNCIA.</h1>
+            <h2>As pizzas mais recheadas da região</h2>
+            <div class="btn">
+                <button class="reservar">
+                    Reserve a sua!
+                </button>
+                <button class="montar">
+                    Montar a sua pizza!
+                </button>
             </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" id="sobrenos">
+        <article class="main">
+            <div class="contentsobre">
+                <h2>Sobre nós</h2>
+                <p>Bem-vindo à nossa pizzaria, onde a paixão pela pizza encontra a tradição italiana e o sabor inigualável! Desde a nossa fundação, buscamos criar momentos memoráveis ao redor da mesa, celebrando o prazer de comer bem. Iniciamos nossa jornada com um sonho: trazer autênticas pizzas italianas para a sua mesa, e ao longo dos anos, esse sonho se tornou a nossa realidade. Nossa história é marcada por dedicação, amor pela gastronomia e um compromisso inabalável com a qualidade. Na nossa pizzaria, a qualidade é a palavra de ordem. Usamos somente ingredientes frescos e selecionados para garantir que cada fatia da nossa pizza seja uma explosão de sabor. Nossos molhos são preparados diariamente.</p>
+
+                <button class="btn-reservar-about">
+                    Reserve a sua!
+                </button>
+            </div>
+
+            <aside class="img-cozinha">
+                <img src="imagens/33460222_8002225.svg" alt="">
+            </aside>
+
+            <button class="btn-reservar-about-mobile">
+                Reserve a sua!
+            </button>
+        </article>
     </section>
     
-    <section class="sobre-nos" id="sobrenos">
-            <div class="main">
-                <div class="contentsobre">
-                    <h2>Sobre nós</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nobis maxime. Officia, eveniet dolor voluptatum harum deserunt dignissimos, enim voluptates ullam culpa quam modi possimus soluta, perferendis est illum similique? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam sed, eveniet a fugiat voluptate soluta? Tempora, numquam! Labore molestiae nihil laudantium sunt veniam autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum, placeat adipisci assumenda temporibus asperiores est vero minima quae esse impedit similique, quisquam voluptate ducimus ab libero itaque vel ex.Quos incidunt aliquid repellat molestias pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ipsam sit explicabo? Possimus nisi porro repellat voluptatum quia illo nulla, a perferendis, dignissimos iusto et molestiae sapiente numquam ad eum.</p>
-                </div>
-
-                <div class="img-cozinha">
-                    <img src="imagens/cozinha.jpg" alt="">
-                </div>
-            </div>
-    </section>
-
-
     <section class="cardapio" id="cardapio">
-        <h2>Cardápio</h2>
+        <h2 class="text-cardapio">Cardápio</h2>
 
         <div class="itens-cardapio">
 
-            
-
-            <div>
-                <div class="pizza">
-                    <img src="imagens/calabresa-removebg-preview.png" alt="">
-                </div>
+            <div class=pizza>
                 <div class="info">
-                    <h3>Calabresa</h3>
+                    <h3>Frango</h3>
                     <h4>6 fatias <span>R$35,00</span></h4>
                     <h4>8 fatias <span>R$45,00</span></h4>
                     <h4>12 fatias <span>R$55,00</span></h4>
                     <button class="pedir">Pedir agora</button>
-
                 </div>
+
+                <aside>
+                    <img src="imagens/frango.jpg" alt="">
+                </aside>
             </div>
 
-            <div>
-                <div class="pizza">
-                    <img src="imagens/portuguesa-removebg-preview.png" alt="">
-                </div>
-
-                <div class="info">
-                    <h3>Portuguesa</h3>
-                    <h4>6 fatias <span>R$35,00</span></h4>
-                    <h4>8 fatias <span>R$45,00</span></h4>
-                    <h4>12 fatias <span>R$55,00</span></h4>
-                    <button class="pedir">Pedir agora</button>
-
-                </div>
-            </div>
-
-            <div>
-
-                <div class="pizza" >
-                    <img class="pepperoni" src="imagens/pizza-de-pepperoni-classica-em-molho-de-tomate-e-queijo-derretido-na-parte-superior1.png" alt="">
-                </div>
-                
+            <div class=pizza>
                 <div class="info">
                     <h3>Pepperoni</h3>
                     <h4>6 fatias <span>R$35,00</span></h4>
                     <h4>8 fatias <span>R$45,00</span></h4>
                     <h4>12 fatias <span>R$55,00</span></h4>
                     <button class="pedir">Pedir agora</button>
-
                 </div>
+
+                <aside>
+                    <img src="imagens/pepperoni.jpg" alt="">
+                </aside>
             </div>
 
-            <div>
-                <div class="pizza">
-                    <img class="chocolate" src="imagens/chocolate-removebg-preview.png" alt="">
-                </div>
+            <div class=pizza>
                 <div class="info">
-                    <h3>Chocolate</h3>
+                    <h3>Margherita</h3>
                     <h4>6 fatias <span>R$35,00</span></h4>
                     <h4>8 fatias <span>R$45,00</span></h4>
                     <h4>12 fatias <span>R$55,00</span></h4>
                     <button class="pedir">Pedir agora</button>
-
                 </div>
+
+                <aside>
+                    <img src="imagens/marguerita.jpg" alt="">
+                </aside>
             </div>
 
-            <div>
-                <div class="pizza">
-                    <img class="sensacao" src="imagens/sensacao-removebg-preview1.png" alt="">
-                </div>
+            <div class=pizza>
                 <div class="info">
-                    <h3>Sensação</h3>
+                    <h3>Portuguesa</h3>
                     <h4>6 fatias <span>R$35,00</span></h4>
                     <h4>8 fatias <span>R$45,00</span></h4>
                     <h4>12 fatias <span>R$55,00</span></h4>
                     <button class="pedir">Pedir agora</button>
-
                 </div>
+
+                <aside>
+                    <img src="imagens/portuguesa.jpg" alt="">
+                </aside>
             </div>
 
-            <div>
-                <div class="pizza">
-                    <img class="prestigio" src="imagens/prestigio-removebg-preview.png" alt=""></div>
+            <div class=pizza>
                 <div class="info">
-                    <h3>Prestígio</h3>
+                    <h3>Calabresa</h3>
                     <h4>6 fatias <span>R$35,00</span></h4>
                     <h4>8 fatias <span>R$45,00</span></h4>
                     <h4>12 fatias <span>R$55,00</span></h4>
                     <button class="pedir">Pedir agora</button>
-
                 </div>
+
+                <aside>
+                    <img src="imagens/calabresa.jpg" alt="">
+                </aside>
+            </div>
+
+            <div class=pizza>
+                <div class="info">
+                    <h3>3 queijos</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$45,00</span></h4>
+                    <h4>12 fatias <span>R$55,00</span></h4>
+                    <button class="pedir">Pedir agora</button>
+                </div>
+
+                <aside>
+                    <img src="imagens/3-queijos.jpg" alt="">
+                </aside>
             </div>
 
         </div>
 
-    </section>
+        <div class="btn-cardapio">
+            <button class="reservar">
+                Reserve a sua!
+            </button>
+            <button class="montar">
+                Montar a sua pizza!
+            </button>
+        </div>
+
+    </section>    
 
     <section class="contatos" id="contatos">
-        <h3>contatos</h3>
+        <article class="contatos-secao">
+            <h3>CONTATOS</h3>
 
-        <div class="contatos-secao">
-            <div>
-                <i class="bi bi-telephone"></i>
-                <span>(85) 98402-8922</span>
+            <div class="contato-footer">
+
+                <div class="logo-contatos">
+                    <img src="imagens/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="">
+                    <h3>PizzaPlanet</h3>
+                </div>
+
+                <div class="lista-contatos">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#sobrenos">Sobre Nós</a></li>
+                        <li><a href="#cardapio">Cardapio</a></li>
+                    </ul>
+                </div>
+
+                <div class="cont">
+                        <div class="icone">
+                            <i class="bi bi-instagram"></i>
+                            <span>@byteflow_</span>
+                        </div>
+                        <div class="icone">
+                            <i class="bi bi-telephone"></i>
+                            <span>(85) 94002-8922</span>
+                        </div>
+                        <div class="icone">
+                            <i class="bi bi-facebook"></i>
+                            <span>ByteFlow</span>
+                        </div>
+
+                </div>
             </div>
 
-            <div>
-                <i class="bi bi-instagram"></i>
-                <span>@byteflow_</span>
-            </div>
-            
-            <div>
-                <i class="bi bi-facebook"></i>
-                <span>ByteFlow</span>
-            </div>
-        </div>
-
+        </article>
     </section>
 
     <footer>
-        <h4>Desenvolvido por -> ByteFlow</h4>
+        <h4>Copyright © 2023 de ByteFlow | Todos os direitos reservados.</h4>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
